@@ -7,7 +7,7 @@ describe('Issue create', () => {
     });
   });
 
-  it.only(' Custom Issue Creation', () => {
+  it(' Custom Issue Creation', () => {
     //System finds modal for creating issue and does next steps inside of it
     cy.get('[data-testid="modal:issue-create"]').within(() => {
       
